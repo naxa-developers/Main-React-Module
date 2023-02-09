@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      // "Config/*": ["src/config/*"],
+      "@Actions/*": ["src/actions/*"],
+      "@Assets/*": ["src/assets/*"],
+      "@Components/*": ["src/components/*"],
+      "@Hooks/*": ["src/hooks/*"],
+      "@Reducers/*": ["src/reducers/*"],
+      "@Sagas/*": ["src/sagas/*"],
+      "@Selectors/*": ["src/selectors/*"],
+      "@Services/*": ["src/services/*"],
+      "@Utils/*": ["src/utils/*"]
+      // "App/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
